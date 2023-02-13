@@ -1,0 +1,15 @@
+<service>
+  <id>SRServer</id>
+  <name>Shark Remote</name>
+  <description>An application to create a convenient and functional bot for remote PC control from the Telegram messenger. Used as a Windows service.</description>>
+  <executable>Shark Remote</executable>
+  <stoptimeout>10sec</stoptimeout>
+  <arguments>--server</arguments>
+  <log mode="roll"></log>
+  <interactive>true</interactive>
+  <workingdirectory>Path to Shark Remote.exe here</workingdirectory>
+  <serviceaccount>
+		<allowservicelogon>true</allowservicelogon>
+  </serviceaccount>
+  <priority>idle</priority>
+</service>
