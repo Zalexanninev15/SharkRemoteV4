@@ -13,6 +13,6 @@ Repository of PC management software from Telegram messenger - Shark Remote
 
 ## Versions with open source
 
-- [Version 4.5](https://codeberg.org/Zalexanninev15/Shark-Remote/src/branch/version-4.3.1) (SOON)
+- [Version 4.5](https://codeberg.org/Zalexanninev15/Shark-Remote/src/branch/version-4.5) (SOON)
 
 - [Version 4.3.1](https://codeberg.org/Zalexanninev15/Shark-Remote/src/branch/version-4.3.1)
