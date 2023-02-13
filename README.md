@@ -1,6 +1,6 @@
 # Shark Remote ([Repository](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1), [GItHub](https://github.com/Zalexanninev15/Shark-Remote-4.3.1))
 
-[![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1)
+[![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://codeberg.org/Zalexanninev15/Shark-Remote/src/branch/version-4.3.1)
 [![](https://img.shields.io/badge/written_on-.NET_6-651DE5.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet/6.0)
 [![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1)
 [![](https://img.shields.io/badge/release-v4.3.1-blue.svg)](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1/releases/tag/4.3.1)
