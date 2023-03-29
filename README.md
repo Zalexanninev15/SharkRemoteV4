@@ -11,7 +11,7 @@
 
 Shark Remote Open Source Edition. The compiled and closed original version is located on the [website](https://sharkremote.neocities.org). This branch includes source code for version 4.5
 
-## Build (with Visual Studio Installer) *
+## Build (with Visual Studio) *
 
 1. [Download this branch](https://codeberg.org/Zalexanninev15/Shark-Remote/archive/version-4.5.zip) and unzip the archive
 
