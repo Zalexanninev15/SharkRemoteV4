@@ -23,4 +23,4 @@ Shark Remote Open Source Edition. The compiled and closed original version is lo
 
 5. Build the project as a Release!
 
-\* Read the file before compiling `NOTICE.txt` ([link](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1/src/branch/main/src/NOTICE)) in the `src` folder. This file contains information about the licenses of the libraries used in Shark Remote.
+\* Read the file before compiling `NOTICE.` ([link](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1/src/branch/main/src/NOTICE)) in the `src` folder. This file contains information about the licenses of the libraries used in Shark Remote.
