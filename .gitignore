@@ -1,0 +1,7 @@
+src/.vs/
+src/obj/
+src/bin/
+*.png
+*.jpg
+*.gif
+*.ico
