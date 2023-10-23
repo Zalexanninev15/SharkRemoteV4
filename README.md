@@ -9,7 +9,7 @@
 
 ## Description
 
-Repository of PC management software from Telegram messenger - Shark Remote
+Repository of PC management software from Telegram messenger - Shark Remote. [Official documentation on Russian language](https://codeberg.org/Zalexanninev15/Shark-Remote/wiki/main)
 
 ## Versions with open source
 
