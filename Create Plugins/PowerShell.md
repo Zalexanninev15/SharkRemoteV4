@@ -12,6 +12,7 @@
 chat_action_type = 1
 message_type = 1
 arguments_count = 0
+plugin_type = 0
 ```
 
 **chat_action_type** - тип действия, которое будет написано в чате во время работы файла
@@ -32,27 +33,23 @@ arguments_count = 0
 *Значения* 
  - От 0 до 4
 
+ **plugin_type** - тип плагина, для Lua это "0" (в версиях Shark Remote до 4.7 - "1")
+
 ### 5. Основной код необходимо написать в файле **main.ps1** (файл кода написанный для *PowerShell*). Можно создать и редактировать с помощью *Windows PowerShell ISE*, который встроен в Windows.
 
 ![image](https://user-images.githubusercontent.com/51060911/190862456-101a23fa-3ec2-4517-a5ab-86972b15b69c.png)
 
+**Если Вы хотите использовать русский язык в каких-то фрагментах кода, то редактируйте файл в Notepad++ в кодировке UTF-8. Также, можно редактировать файла в Windows PowerShell ISE, а после сохранения изменить кодировку в Notepad++.**
+
+![image](https://github.com/community/community/assets/51060911/908c61ee-1b2d-4bb9-94ed-3865adfc74f4)
 
 ### 6. Вставьте в файл **main.ps1** следующий код:
 ```
 #app {plugin_name}, Version="{plugin_version}", Author={author}, Command={call_command}
 
-# Аргументы (опционально)
-# $arg0 = $args[0] # Аргумент 1
-# $arg1 = $args[1] # Аргумент 2
-# $arg2 = $args[2] # Аргумент 3
-# $arg3 = $args[3] # Аргумент 4
-# Количество аргументов зависит от заданного количества аргументов из манифеста
-
-# Write-Output Arguments: $arg0 $arg1 $arg2 $arg3 # Вывод аргументов
-# Write-Output - вывод текста в бота по окончании работы плагина
-# Вывод текста будет нормально работать в боте, только если текст написан на английском языке!
-
-Write-Output Hello World!
+function MainFunc($arg1, $arg2, $arg3, $arg4) {
+	"Привет Мир! 3+4 = " + 3+4
+}
 ```
 ### 7. Заполните данные (всё без пробелов):
 - **{plugin_name}** - название плагина, такое же как для **{main_folder}**
@@ -67,6 +64,8 @@ Write-Output Hello World!
 ### 8. Создайте zip архив с папкой **{main_folder}** (рекомендую воспользоваться архиватором [7-Zip](https://www.7-zip.org/) со сжатием **Нормальное**)
 
 ![image](https://user-images.githubusercontent.com/51060911/191972666-a2732f62-6bf0-4ff8-9e4c-eeaee52e6f08.png)
+
+**Нужно заархивировать не саму папку, а её содержимое!**
 
 ### 9. Переименуйте файл в **{main_folder}** и измените расширение архива на ```srp```
 
