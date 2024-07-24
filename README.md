@@ -1,11 +1,10 @@
 # Shark Remote
 
-[![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://codeberg.org/Zalexanninev15/Shark-Remote/src/branch/version-4.3.1)
+[![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/SharkRemoteV4/tree/version-4.3.1)
 [![](https://img.shields.io/badge/written_on-.NET_6-651DE5.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet/6.0)
-[![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://codeberg.org/Zalexanninev15/Shark-Remote)
-[![](https://img.shields.io/badge/release-v4.3.1-blue.svg)](https://codeberg.org/attachments/0a25d2ed-7619-4ea1-85c2-7b2af5ea26cd)
+[![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://github.com/Zalexanninev15/SharkRemoteV4)
+[![](https://img.shields.io/badge/release-v4.3.1-blue.svg)](https://codeberg.org/attachments/151cb8b1-18bf-42c1-a529-9baa639c4ef4)
 [![](https://img.shields.io/badge/license-Apache_2.0-CD1D32.svg)](LICENSE)
-[![](https://img.shields.io/badge/donate-Buy_Me_a_Coffee-F94400.svg)](https://zalexanninev15.jimdofree.com/buy-me-a-coffee)
 
 ## Description
 
@@ -13,7 +12,7 @@ Shark Remote Open Source Edition. The compiled and closed original version is lo
 
 ## Build (with Visual Studio) *
 
-1. [Download this branch](https://codeberg.org/Zalexanninev15/Shark-Remote/archive/version-4.3.1.zip) and unzip the archive
+1. Download this branch and unzip the archive
 
 2. Install .NET 6 support in Visual Studio Installer
 
@@ -23,4 +22,4 @@ Shark Remote Open Source Edition. The compiled and closed original version is lo
 
 5. Build the project as a Release!
 
-\* Read the file before compiling `NOTICE.` ([link](https://codeberg.org/Zalexanninev15/Shark-Remote-4.3.1/src/branch/main/src/NOTICE)) in the `src` folder. This file contains information about the licenses of the libraries used in Shark Remote.
+\* Read the file before compiling `NOTICE.` in the `src` folder. This file contains information about the licenses of the libraries used in Shark Remote.
