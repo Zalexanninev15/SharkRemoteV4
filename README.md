@@ -1,6 +1,6 @@
 # Shark Remote
 
-[![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://codeberg.org/Zalexanninev15/Shark-Remote)
+[![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/SharkRemoteV4)
 [![](https://img.shields.io/badge/written_on-.NET_7-651DE5.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet/7.0)
 [![](https://img.shields.io/badge/written_on-.NET_6-651DE5.svg?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet/6.0)
 [![](https://img.shields.io/badge/written_on-CSharp-239120.svg?logo=csharp)](https://github.com/Zalexanninev15/SharkRemoteV4)
